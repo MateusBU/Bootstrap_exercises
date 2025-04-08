@@ -19,10 +19,10 @@
 </p>
 
 <div class="exercicio">
+    <!-- Grid Básica -->
     <h1>1. Basic Grid</h1>
     <hr>
 
-    <!-- Grid Básica -->
     <!-- full window -->
     <div class="container-fluid">
         <div class="row">
@@ -39,30 +39,75 @@
         </div>
     </div>
 
-    <h1 class="mt-5">2. Grid Responsiva</h1>
+    <!-- Responsive Grid -->
+    <h1 class="mt-5">2. Responsive Grid</h1>
     <hr>
-
-    <!-- Grid Responsiva -->
-
-    <h1 class="mt-5">3. Quebra de Linha</h1>
-    <hr>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- it changes the number of columns, depending the width of the window -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-1 bg-primary">1</div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-1 bg-danger">2</div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-1 bg-warning">3</div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-1 bg-info">4</div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-1 bg-success">5</div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-1 bg-secondary">6</div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-1 bg-success">7</div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-1 bg-danger">8</div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-1 bg-info">9</div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-1 bg-warning">10</div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-1 bg-danger">11</div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-1 bg-primary">12</div>
+        </div>
+    </div>
 
     <!-- Quebra de Linha -->
-
-    <h1 class="mt-5">4. Ordem</h1>
+    <h1 class="mt-5">3. Break Row</h1>
     <hr>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- 3 columns -->
+            <div class="col-3 bg-primary">1</div>
+            <!-- 3 columns -->
+            <div class="col-3 bg-danger">2</div>
+            <div class="w-100"></div>
+            <div class="col-3 bg-warning">3</div>
+        </div>
+    </div>
 
-    <!-- Ordem -->
-
-    <h1 class="mt-5">5. Offset</h1>
+    <!-- Order -->
+    <h1 class="mt-5">4. Order</h1>
     <hr>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4 order-5 bg-primary">1</div>
+            <div class="col-4 order-12 bg-danger">2</div>
+            <div class="col-4 order-1 bg-warning">3</div>
+        </div>
+    </div>
 
     <!-- Offset -->
-
-    <h1 class="mt-5">6. Alinhamento</h1>
+    <h1 class="mt-5">5. Offset</h1>
     <hr>
+    <div class="conteiner-fluid">
+        <div class="row">
+            <!-- it occupies 3 columns, but it makes an offset of 7  -->
+            <div class="col-3 offset-7 bg-primary">1</div>
+            <div class="col-3 offset-4 bg-danger">2</div>
+            <div class="col-6 offset-2 bg-warning">3</div>
+        </div>
+    </div>
 
-    <!-- Alinhamento -->
+    <!-- Alignment -->
+    <h1 class="mt-5">6. Alignment</h1>
+    <hr>
+    <div class="container-fluid">
+        <div class="row h-300">
+            <div class="col-4 align-self-end bg-primary">1</div>
+            <div class="col-4 align-self-center bg-warning">2</div>
+            <div class="col-4 align-self-start bg-danger">3</div>
+        </div>
+    </div>
+
 </div>
 
 <style>
