@@ -13,6 +13,7 @@
 </nav>
 
 
+<!-- Buttons -->
 <h1>1. Buttons -
     <small>
         <a href="https://getbootstrap.com/docs/4.0/components/buttons/" target="_black">Official Documentation</a>
@@ -20,17 +21,58 @@
 </h1>
 <hr>
 
-<!-- Buttons -->
+<div>
+    <div class="mb-3">
+        <button class="btn btn-primary">Save</button>
+        <button class="btn btn-secondary">Cancel</button>
+        <button class="btn btn-outline-success">Finish</button>
+        <button class="btn btn-danger" disabled>Exclude</button>
+        <button class="btn btn-warning" data-toggle="button">Select</button>
+    </div>
 
-<h1 class="mt-5">2. Progresso -
+    <div class="btn-group mb-3">
+        <button class="btn btn-info">Left</button>
+        <button class="btn btn-info active">Center</button>
+        <button class="btn btn-info">Right</button>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-danger btn-lg dropdown-toggle" data-toggle="dropdown">Buy!</button>
+        <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Paypal</a>
+            <a href="#" class="dropdown-item">Pagseguro</a>
+        </div>
+    </div>
+</div>
+
+<!-- Progress -->
+<h1 class="mt-5">2. Progress -
     <small>
         <a href="https://getbootstrap.com/docs/4.0/components/progress/" target="_black">Official Documentation</a>
     </small>
 </h1>
 <hr>
 
-<!-- Progresso -->
+<div>
+    <div class="progress mb-4">
+        <div class="progress-bar" style="width: 25%;"></div>
+    </div>
+    <div class="progress mb-4">
+        <div class="progress-bar progress-bar-striped bg-success" style="width: 50%;">50%</div>
+    </div>
+    <div class="progress mb-4">
+        <div class="progress-bar progress-bar-striped bg-success" style="width: 50%;">50%</div>
+    </div>
+    <div class="progress" style="height: 40px;">
+        <div class="progress-bar" style="width: 15%;"></div>
+        <div class="progress-bar bg-danger" style="width: 30%;"></div>
+        <div class="progress-bar bg-info" style="width: 35%;"></div>
+        <div class="progress-bar bg-warning" style="width: 20%;"></div>
+    </div>
+</div>
 
+
+<!-- Alerts -->
 <h1 class="mt-5">3. Mensages (Alerts) -
     <small>
         <a href="https://getbootstrap.com/docs/4.0/components/alerts/" target="_black">Official Documentation</a>
@@ -38,17 +80,49 @@
 </h1>
 <hr>
 
-<!-- Alerts -->
+<div>
+    <div class="alert alert-success">
+        Success!!!!!!
+    </div>
+    <div class="alert alert-warning">
+        Warning!!!!
+    </div>
+    <div class="alert alert-danger">
+        !!!!DANGER!!!!
+        <a href="#" class="alert-link">More details</a>
+    </div>
+    <div class="alert alert-success">
+        <h4 class="alter-heading">Congrats</h4>
+    </div>
+</div>
 
-<h1 class="mt-5">4. Paginação -
+<!-- pagination -->
+<h1 class="mt-5">4. Pagination -
     <small>
         <a href="https://getbootstrap.com/docs/4.0/components/pagination/" target="_black">Official Documentation</a>
     </small>
 </h1>
 <hr>
+<div>
+    <nav>
+        <ul class="pagination">
+            <li class="page-item">
+                <a href="#" class="page-link">Previous</a>
+            </li>
+            <li class="page-item active">
+                <a href="#" class="page-link">1</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">2</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">Next</a>
+            </li>
+        </ul>
+    </nav>
+</div>
 
-<!-- Peginação -->
-
+<!-- Tooltip -->
 <h1 class="mt-5">5. Tooltip -
     <small>
         <a href="https://getbootstrap.com/docs/4.0/components/tooltip/" target="_black">Official Documentation</a>
@@ -56,8 +130,8 @@
 </h1>
 <hr>
 
-<!-- Tooltip -->
 
+<!-- Slider -->
 <h1 class="mt-5">6. Slider -
     <small>
         <a href="https://getbootstrap.com/docs/4.0/components/carousel/" target="_black">Official Documentation</a>
@@ -65,8 +139,8 @@
 </h1>
 <hr>
 
-<!-- Slider -->
 
+<!-- Accordion -->
 <h1 class="mt-5">7. Accordion -
     <small>
         <a href="https://getbootstrap.com/docs/4.0/components/collapse/" target="_black">Official Documentation</a>
@@ -74,7 +148,6 @@
 </h1>
 <hr>
 
-<!-- Accordion -->
 
 <script>
     // ...
