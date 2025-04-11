@@ -17,4 +17,62 @@
     <a href="https://getbootstrap.com/docs/4.0/components/forms/" target="_black">Official Documentation</a>
 </p>
 
-<!-- Formulário -->
+<!-- Form -->
+<div class="card">
+    <div class="card-header">
+        <h5 class="mb-0">
+            Form Example
+        </h5>
+    </div>
+    <div class="card-body">
+        <form action="" class="container-fluid">
+            <div class="form-row">
+                <div class="col-12">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" palceholder="Inform the name">
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+
+                <div class="col-12 col-md-6">
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">@</span>
+                            </div>
+                            <input type="email" class="form-control" id="email" placeholder="Inform Email Address">
+                        </div>
+                        <small class="form-text text-muted">
+                            We will send a message to confirm the email address.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="form-group">
+                        <label for="preferedLanguage">Language</label>
+                        <select id="preferedLanguage" class="form-control">
+                            <option value="">Select</option>
+                            <option>JS</option>
+                            <option>Python</option>
+                            <option>C</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <hr>
+            <div class="form-row mb-0">
+                <div class="col-12 d-flex justify-content-end">
+                    <button class="btn btn-primary mr-2" type="submit">Save</button>
+                    <button class="btn btn-secondary" type="reset">Cancel</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

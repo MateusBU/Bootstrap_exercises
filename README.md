@@ -34,6 +34,9 @@ To work with Bootstrap, you may need the following:
 - **Webpack 5.98.0**: A module bundler to bundle your assets.
 
 
+## Start
+The command to start the application is `npm start`.
+
 ## Helpful Sites for Bootstrap Designs
 **www.wrapboostrap.com**
 
